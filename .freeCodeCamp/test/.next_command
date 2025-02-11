@@ -1,0 +1,54 @@
+mkdir periodic_table
+git init
+cd periodic_table
+git init
+git branch main
+git branch -b main
+git checkout -d main
+git checkout -b main
+touch element.sh
+chmod +x element.sh
+./element.sh
+./element.sh
+./element.sh 1
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh Hydrogen
+./element.sh 'Hydrogen'
+./element.sh Hydrogen
+./element.sh Hydrogen
+./element.sh 1
+./element.sh Hydrogen
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+./element.sh H
+git branch
+git init
+git branch
+git checkout main
+git satus
+git status
+git add .
+git commit -m "Initial commit"
+git add .
+git commit -m "fix: hello"
+git add .
+git commit -m "feat: hello"
+git add .
+git commit -m "refactor: hello"
+git add .
+git commit -m "chore: hello"
+./element.sh H
+git add .
+git commit -m "fix: use of types table for the type instead of properties"
+cd ..
+PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
+pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
